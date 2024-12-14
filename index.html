@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>DAN Infra-Pvt Ltd</title>
+    <meta name="title" content="DAN Infra-Pvt Ltd" />
+    <meta
+      name="description"
+      content="This is electrical company website"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Electrical</p>
+    </div>
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="DAN Infra - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="DAN Infra - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Projects</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#service" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Services</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+        </nav>
+
+        <!-- <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Find A Table</span>
+
+          <span class="text text-2" aria-hidden="true">Find A Table</span>
+        </a> -->
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-1.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+
+              <h1 class="display-1 hero-title slider-reveal text-white">
+                Powering the Future <br />
+                with Excellence
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Delivering innovative electrical solutions for a brighter tomorrow
+              </p>
+
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-2.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+
+              <h1 class="display-1 hero-title slider-reveal text-white">
+                Connecting Power <br />
+                With Precision
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Comprehensive electrical solutions for all your energy needs
+
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+
+              <h1 class="display-1 hero-title slider-reveal text-white">
+                Empowering Industries <br />
+                with Reliable Transformers
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Expert installation and services ensuring uninterrupted power solutions
+              </p>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service text-center"
+          aria-label="service"
+          id="service"
+        >
+          <div class="container">
+
+            <div class="circle-bg circle1"></div>
+            <div class="circle-bg circle2"></div>
+            <div class="circle-bg circle3"></div>
+            <div class="circle-bg circle4"></div>
+
+            <div data-aos="fade-right">
+              <p class="section-subtitle label-2">Variety of Services</p>
+            </div>
+
+            <div data-aos="zoom-out-up">
+              <h2 class="headline-1 section-title">We Offer Various Services</h2>
+            </div>
+
+            <div data-aos="zoom-in-right">
+              <p class="section-text">
+                At DAN Electric, DAN Infra, and DAN Infra Shipping, we deliver top-tier solutions in electrical services, 
+                infrastructure development, and shipping logistics. Our expertise ensures reliable, innovative, and 
+                efficient results tailored to your needs. Partner with us for excellence in every project.
+              </p>
+          </div>
+
+            <ul class="grid-list">
+              <li>
+              <div data-aos="flip-right">
+                <div class="service-card">
+                  <a href="service-1.html" class="hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/Dan-Electric-LLP-2-round.png"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="DAN Electric LLP"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div data-aos="fade-right">
+                    <div class="card-content">
+                      <h3 class="title-4 card-title">
+                        <a href="#">DAN Electric</a>
+                      </h3>
+
+                      <a href="service-1.html" class="btn-text hover-underline label-2"
+                        >View Details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </li>
+
+              <li>
+              <div data-aos="flip-up">
+                <div class="service-card">
+                  <a href="service-2.html" class="hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/Dan-Infra-service.png"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="DAN Infra"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div data-aos="fade-up">
+                    <div class="card-content">
+                      <h3 class="title-4 card-title" >
+                        <a href="#">DAN Infra</a>
+                      </h3>
+
+                      <a href="service-2.html" class="btn-text hover-underline label-2"
+                        >View Details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </li>
+
+              <li>
+              <div data-aos="flip-left">
+                <div class="service-card">
+                  <a href="service-3.html" class="hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/Dan-Infra-shipping-service-2-round.png"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="DAN Infra Shipping"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+                  <div data-aos="fade-left">
+                    <div class="card-content">
+                      <h3 class="title-4 card-title">
+                        <a href="#">DAN Infra Shipping</a>
+                      </h3>
+  
+                      <a href="service-3.html" class="btn-text hover-underline label-2"
+                        >View Details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </li>
+            </ul>
+
+            <!-- <img
+              src="./assets/images/bg-services.png"
+              width="450"
+              height="500"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            /> -->
+           
+              <img
+                src="./assets/images/45 years.png"
+                width="343"
+                height="345"
+                loading="lazy"
+                alt="shape"
+                class="shape shape-2 move-anim"
+              />
+
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+
+            <div class="circle-bg circle1"></div>
+            <div class="circle-bg circle2"></div>
+            <div class="circle-bg circle3"></div>
+            <div class="circle-bg circle4"></div>
+
+            <div class="about-content">
+
+              <div data-aos="fade-left">
+                <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+              </div>
+
+              <div data-aos="zoom-out-up">
+                <h2 class="headline-1 section-title">
+                  About Us
+                </h2>
+              </div>
+
+              <div data-aos="fade-right">
+                <p class="section-text">  
+                  At <b>DAN Infra</b> we bring 45 years of expertise in delivering high-quality infrastructure, electrical, 
+                  and shipping solutions with a commitment to fair pricing and exceptional customer value. 
+                  As a professionally managed firm, we are focused on innovation, safety, and energy conservation, 
+                  adhering to international standards.  
+
+                  Our experienced team provides end-to-end services from project planning and design to execution and 
+                  commissioning across diverse industries.
+                </p>
+
+              </div>
+            </div>
+
+            <figure class="about-banner">
+              <div data-aos="flip-up">
+                <img
+                  src="./assets/images/about-electric.jpg"
+                  width="570"
+                  height="570"
+                  loading="lazy"
+                  alt="about banner"
+                  class="w-100"
+                  data-parallax-item
+                  data-parallax-speed="1"
+                />
+              </div>
+
+              <div
+                class="abs-img abs-img-1 "
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+              <div data-aos="flip-right">
+
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              </div>
+            </figure>
+
+            <img
+              src="./assets/images/about-shape.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <div class="circle-bg circle1"></div>
+            <div class="circle-bg circle2"></div>
+
+            <div data-aos="fade-left">
+              <p class="section-subtitle label-2">Why Choose Us</p>
+            </div>
+
+            <div data-aos="zoom-out-up">
+              <h2 class="headline-1 section-title">Our Strength</h2>
+            </div>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div data-aos="flip-left">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-1.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+  
+                    <h3 class="title-2 card-title">Expert team</h3>
+  
+                    <p class="label-1 card-text">
+                      Skilled professionals delivering innovative and efficient solutions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div data-aos="flip-right">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-2.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+  
+                    <h3 class="title-2 card-title text-white">Safety and Security</h3>
+  
+                    <p class="label-1 card-text">
+                      Adherence to international safety standards for reliable operations.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div data-aos="flip-left">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-3.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+  
+                    <h3 class="title-2 card-title">Quality products</h3>
+  
+                    <p class="label-1 card-text">
+                      High-performance electrical products ensuring durability.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div data-aos="flip-right">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/features-icon-4.png"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      />
+                    </div>
+  
+                    <h3 class="title-2 card-title text-white">Consistency</h3>
+  
+                    <p class="label-1 card-text">
+                      Unwavering commitment to excellence in every project.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #EVENT
+      -->
+
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-color: hsl(31, 97%, 12%);"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, London 9578, UK
+            </address>
+
+            <a href="mailto:booking@grilli.com" class="body-4 contact-link"
+              >booking@grilli.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Booking Request : +88-123-123456</a
+            >
+
+            <p class="body-4">Open : 09:00 am - 01:00 pm</p>
+
+            <div class="wrapper section-subtitle">
+            </div>
+
+            <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+          
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="label-2 footer-link hover-underline">About us</a>
+            </li>
+
+            <li>
+              <a href="#service" class="label-2 footer-link hover-underline"
+                >Services</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >projects</a
+              >
+            </li>
+
+            <li>
+              <a href="contact.html" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 DAN Infra.All rights Reserved | Crafted by
+            <a
+              href="https://github.com/Barath-tech"
+              target="_blank"
+              class="link"
+              >Barath S</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link and aos
+  -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      AOS.init({
+      duration: 1000,
+    });
+    </script>
+  </body>
+</html>
