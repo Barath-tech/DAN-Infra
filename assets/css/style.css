@@ -1839,10 +1839,10 @@ textarea.input-field {
 \*-----------------------------------*/
 
 /**
- * responsive for larger than 575px screen
+ * responsive for larger than 400px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 400px) {
   /**
    * CUSTOM PROPERTY
    */

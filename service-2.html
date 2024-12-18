@@ -27,6 +27,15 @@
   -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+      @media (min-width: 1200px) {
+        .blog-list {
+          display: grid !important;
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    </style>
   </head>
   <body id="top">
     <div class="preload" data-preaload>
@@ -189,7 +198,7 @@
               </h2>
             </div>
 
-            <ul class="blog-list" style="grid-template-columns: 1fr 1fr">
+            <ul class="blog-list">
               <li>
                 <div data-aos="flip-left">
                   <div class="blog-card">
