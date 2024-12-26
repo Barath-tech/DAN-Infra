@@ -42,7 +42,7 @@
   --soft-silver: hsl(0, 0%, 88%);
   --contrast-dark-blue: hsl(220, 60%, 20%);
   --contrast-red:hsl(3, 73%, 48%);
-  --baige:hsl(23, 24%, 83%);
+  --baige:hsl(0, 0%, 56%);
 
   --selective-yellow: hsl(42, 100%, 56%);
   --roman-silver: hsl(240, 6%, 51%);
@@ -370,7 +370,7 @@ body.nav-active {
   line-height: var(--lineHeight-2);
   z-index: 1;
   opacity: 1;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .display-1 {
@@ -693,7 +693,7 @@ body.nav-active {
 .circle-bg {
   position: absolute;
   border-radius: 50%;
-  background-color: hsl(23, 70%, 40%) ;
+  background-color:var(--snow) ;
   animation: moveCircle 10s linear infinite;
   opacity: 0.8;
   z-index: -1;
