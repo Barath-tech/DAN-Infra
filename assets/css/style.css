@@ -699,6 +699,12 @@ body.nav-active {
   z-index: -1;
 }
 
+.circle-bg img {
+  opacity: 1; /* Ensures the image remains fully opaque */
+  z-index: 1; /* Brings the image above the circle background */
+  position: relative; /* Ensures proper stacking within the parent */
+}
+
 .circle1 {
   width: 150px;
   height: 150px;
