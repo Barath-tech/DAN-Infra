@@ -42,7 +42,7 @@
   --soft-silver: hsl(0, 0%, 88%);
   --contrast-dark-blue: hsl(220, 60%, 20%);
   --contrast-red:hsl(3, 73%, 48%);
-  --baige:hsl(0, 0%, 56%);
+  --baige:hsl(23, 24%, 83%);
 
   --selective-yellow: hsl(42, 100%, 56%);
   --roman-silver: hsl(240, 6%, 51%);
@@ -693,7 +693,7 @@ body.nav-active {
 .circle-bg {
   position: absolute;
   border-radius: 50%;
-  background-color:var(--snow) ;
+  background-color:hsl(23, 70%, 40%) ;
   animation: moveCircle 10s linear infinite;
   opacity: 0.8;
   z-index: -1;
