@@ -56,6 +56,7 @@
   --black_10: hsla(0, 0%, 0%, 0.1);
 
   /* hsl(206, 9%, 15%) */
+  
 
   /* --baige:hsl(23, 24%, 83%); */
   /**
@@ -695,7 +696,7 @@ body.nav-active {
 .circle-bg {
   position: absolute;
   border-radius: 50%;
-  background-color:hsl(139, 36%, 44%) ;
+  background-color:hsl(178, 61%, 73%) ;
   animation: moveCircle 10s linear infinite;
   opacity: 0.8;
   z-index: -1;
