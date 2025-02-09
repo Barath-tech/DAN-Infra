@@ -42,7 +42,7 @@
   --soft-silver: hsl(0, 0%, 88%);
   --contrast-dark-blue: hsl(220, 60%, 20%);
   --contrast-red:hsl(3, 73%, 48%);
-  --baige:hsl(23, 24%, 83%);
+  --baige:hsl(206, 9%, 15%);
 
   --selective-yellow: hsl(42, 100%, 56%);
   --roman-silver: hsl(240, 6%, 51%);
@@ -55,7 +55,9 @@
   --black: hsl(0, 0%, 0%);
   --black_10: hsla(0, 0%, 0%, 0.1);
 
+  /* hsl(206, 9%, 15%) */
 
+  /* --baige:hsl(23, 24%, 83%); */
   /**
    * GRADIENT COLOR
    */
@@ -609,7 +611,7 @@ body.nav-active {
 }
 
 .text-lightwhite{
-  color: var(--davys-grey);
+  color: var(--white-alpha-10);
 }
 
 .text-darkblue{
@@ -693,10 +695,12 @@ body.nav-active {
 .circle-bg {
   position: absolute;
   border-radius: 50%;
-  background-color:hsl(23, 70%, 40%) ;
+  background-color:hsl(139, 36%, 44%) ;
   animation: moveCircle 10s linear infinite;
   opacity: 0.8;
   z-index: -1;
+
+  /* hsl(23, 70%, 40%) */
 }
 
 .circle-bg img {
